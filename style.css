@@ -1,32 +1,79 @@
+/* Reset and body styles */
 body {
-  font-family: Roboto;
-  display: flex;
+  font-family: Roboto, sans-serif;
   padding: 0;
   margin: 0;
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
+/* Header styles */
 header {
   background-color: #1f2937;
   width: 100%;
   display: flex;
   justify-content: center;
 }
+
 #header-content {
   display: flex;
-  font-size: 18px;
   align-items: baseline;
-  width: 75%;
+  font-size: 18px;
+  width: 65%;
 }
+
 .logo {
   margin-right: auto;
   font-size: 24px;
   color: #f9faf8;
 }
 .link {
-  margin-right: 4px;
+  margin-left: 10px;
 }
 .link a {
   text-decoration: none;
   color: #e5e7eb;
+}
+
+/* Section-1 styles */
+.section-1 {
+  background-color: #1f2937;
+  color: #f9faf8;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.content-1 {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  gap: 30px; /* Add spacing between text and image */
+}
+.text-1 h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin: 0;
+}
+.text-1 p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0 0 10px 0;
+}
+.text-1 {
+  flex: 1 1 70%;
+}
+.img-1 {
+  flex: 1 1 30%;
+}
+
+.img-1 {
+  display: flex;
+  justify-content: flex-end;
+}
+.img-1 img {
+  height: 300px;
 }
