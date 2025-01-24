@@ -138,3 +138,35 @@ header {
   font-size: 24px;
   align-self: flex-end;
 }
+/*Section 4*/
+.section-4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 40px 0;
+}
+.content-4 {
+  width: 65%;
+  display: flex;
+  background-color: #3882f6;
+  border-radius: 5px;
+  justify-content: space-around;
+  align-items: center;
+  color: #f9faf8;
+}
+.content-4 h3 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 34px;
+}
+.content-4 p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+footer {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f9faf8;
+}
