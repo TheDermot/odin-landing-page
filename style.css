@@ -77,3 +77,37 @@ header {
 .img-1 img {
   height: 300px;
 }
+
+/*Section 2*/
+.section-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.content-2 {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content-2 img {
+  height: 150px;
+  width: 150px;
+  border: 2px solid #1f2937;
+  padding: 5px;
+  border-radius: 10px;
+}
+.img-2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Section 3*/
+.section-3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
