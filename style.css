@@ -1,4 +1,8 @@
 /* Reset and body styles */
+html {
+  width: 100vw;
+}
+
 body {
   font-family: Roboto, sans-serif;
   padding: 0;
@@ -83,7 +87,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 30px;
+  padding: 40px 0 40px 0;
 }
 .content-2 {
   width: 65%;
@@ -109,5 +113,28 @@ header {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 30px;
+  padding: 40px 0 40px 0;
+  background-color: #e5e7eb;
+}
+.content-3 {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content-3 p {
+  color: #1f2937;
+  padding: 0 20px 0 20px;
+}
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  margin: 0;
+}
+.author {
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  align-self: flex-end;
 }
