@@ -25,6 +25,7 @@ header {
   align-items: baseline;
   font-size: 18px;
   width: 60rem;
+  padding: 0 10px 0 10px;
 }
 
 .logo {
@@ -47,12 +48,12 @@ header {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 40px 0;
 }
 
 .content-1 {
   width: 60rem;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 30px; /* Add spacing between text and image */
 }
@@ -60,12 +61,12 @@ header {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
-  margin: 0;
+  margin: 10px;
 }
 .text-1 p {
   font-size: 18px;
   color: #e5e7eb;
-  margin: 0 0 10px 0;
+  margin: 10px;
 }
 .text-1 {
   flex: 1 1 70%;
@@ -76,10 +77,13 @@ header {
 
 .img-1 {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 .img-1 img {
   height: 300px;
+}
+.content-1 button {
+  margin-left: 10px;
 }
 
 /*Section 2*/
@@ -95,19 +99,40 @@ header {
   flex-direction: column;
   align-items: center;
 }
-.content-2 img {
-  height: 150px;
-  width: 150px;
-  border: 2px solid #1f2937;
-  padding: 5px;
-  border-radius: 10px;
-}
+
 .img-2 {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+  gap: 20px;
+  padding: 0 40px 0 40px;
+}
+.img-2 a {
+  flex: 1 1 20%;
+  border: 2px solid #1f2937;
+  border-radius: 10px;
+  display: flex;
+}
+.img-2 img {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+}
+/* Responsive Breakpoints */
+@media (max-width: 800px) {
+  .img-2 a {
+    flex: 1 1 45%; /* 2 items per row */
+    margin: 8px;
+  }
 }
 
+@media (max-width: 500px) {
+  .img-2 a {
+    flex: 1 1 100%; /* Stack items vertically */
+    margin: 10px;
+  }
+}
 /*Section 3*/
 .section-3 {
   width: 100%;
